@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pepsi</title>
+        <style>
+            h1
+            {
+            color:blue;
+            font-family:cursive;
+            }
+            h2
+            {
+            color:white;
+            font-family:cursive;
+            }
+            .pepsi
+            {
+          width:150px;
+          height:300px;
+          border-radius:0% 0% 10% 10%;
+          background-color:blue;
+          position:absolute;
+            bottom:130px;
+            left:250px;
+            border:2px solid black;
+            }
+            p{
+                bottom:80px;
+                left:50px;
+                position:absolute;
+                color:#ffffff;
+                font-family:Arial;
+            }
+            .white
+            {
+        width:45px;
+         height:35px;
+         background:white;
+         border-radius:70%;
+         border:2px solid black;
+         bottom:15px;
+         left:5px;
+        position:absolute;
+            }
+            .stick
+            {
+                left:350px;bottom:420px;
+            position:absolute;
+            width:5px;
+            border:2px solid black;
+            border-radius: 5px 5px 0px 0px;
+          height:100px;
+          background-color:rgb(224, 220, 220);
+            }
+            .bor
+            {
+            width:150px;
+          height:15px;
+          background-color:rgb(224, 220, 220);
+            }
+            .bor1
+            {
+            left:-10px;
+            position:absolute;
+            width:170px;
+            border:2px solid black;
+          height:20px;
+          background-color:rgb(224, 220, 220);
+            }
+            .logo
+            {
+         width:50px;
+         height:50px;
+         background:red;
+         border-radius:70%;
+         border:5px solid black;
+         bottom:120px;
+        left:50px;
+        position:absolute;
+            }
+        .swipe
+      {
+    
+    width:200px;
+    height:50px;
+    border-radius: 0% 10% 10% 0%;
+    background:blue;
+    position:absolute;
+    bottom:400px;
+    left:0;
+     animation-name:swipe;
+     animation-duration:3s;
+     animation-iteration-count:infinite;
+     z-index:0;
+
+     }
+@keyframes swipe{
+ 0%   { background-color:red;left:0px;bottom:400px;}
+ 20%  { background-color:blue; left:80px;bottom:400px;}
+ 40%  {  background-color:red; left:0px;bottom:300px;}
+ 60%   { background-color:blue; left:80px;bottom:300px;}
+ 80%   { background-color:red; left:0px;bottom:200px;  }
+ 100% {background-color:blue;  left:80px;bottom:200px;} 
+  }
+        </style>
+    </head>
+    <h1 align="center"><b>pepsi</b></h1>
+    <body bgcolor="lightblue" align=>
+        <div class="stick"></div>
+        <div class="pepsi">
+        <div class="bor"></div>
+        <div class="bor1"></div>
+
+        <div class="logo">
+            <div class="white"></div>
+        </div>
+        <p><b>pepsi</b></p>
+        </div>
+        <div class="swipe"><h2>0rder now</h2></div>
+    </body>
+</html>
